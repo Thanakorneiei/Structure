@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    position: relative;
+    height: 750px;
+    width: 750px;
+    margin: auto;
+}
+header {
+    background-color: blue;
+    width: 100%;
+    height: 20%;
+    z-index: 5;
+}
+header h1 {
+    color: white;
+}
+footer {
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    clear: both;
+}
+.menu {
+    width: 20%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+.information {
+    width: 80%;
+    height: 100%;
+    background-color:rgb(204, 0, 204);
+    float: right;
+}
+.menu > div {
+    display: block;
+    background-color: black;
+    height: 10%;
+    margin: 5px;
+    color: white;
+    text-align: center;
+}
+.top {
+    width: 90%;
+    height: 35%;
+    background-color: cyan;
+    margin: auto;
+    margin-top: 5%;
+}
+.left {
+    width: 40%;
+    height: 50%;
+    background-color: yellow;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.right{
+    width: 40%;
+    height: 50%;
+    background-color: rgb(81, 255, 0);
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+}
